@@ -5,4 +5,4 @@ Los siguientes documentos contienen varias consideraciones a la hora de desarrol
 * [Git](git.md)
 * [Deployment](deployment.md)
 * [Programación](programacion.md)
-* [Ruby on Rails](rails.md)
+* [Ruby on Rails](rails/rails.md)
