@@ -14,7 +14,7 @@
 
 ## APIs
 
-* En caso de API utilizar [jwt](https://jwt.io/) como capa encima de Devise para la autenticación.
+* En caso de API utilizar [devise-jwt](https://github.com/waiting-for-dev/devise-jwt) con `JTIMatcher` como estrategia de [[revocación.]]
 * Utilizar las políticas CORS más restrictivas posibles con [rack-cors](https://github.com/cyu/rack-cors).
 
 ## Seguridad
