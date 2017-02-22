@@ -10,6 +10,10 @@
 
 * Para casos en que es necesario un "hotfix", realizar el cambio directamente en la rama `staging` o `production` (según sea el caso) e incorporar inmediatamente los cambios a `master`. Las ramas `staging` y `production` no se utilizan para nada más que esto.
 
+* Siempre que sea posible, integrar los cambios upstream con `git pull --rebase` para mantener una historia lineal de cambios.
+
+* Nunca realizar `rebase` sobre commits que ya han sido compartidos.
+
 ## Mensajes
 
 * En inglés.
